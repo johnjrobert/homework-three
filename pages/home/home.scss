@@ -1,0 +1,92 @@
+.home {
+  .hero {
+    height: 600px;
+    // background-color: green;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.4)
+      ),
+      url(../../assests/images/home-hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    justify-content: center;
+
+    .hero-header {
+      font-size: 150px;
+      color: white;
+      font-family: "Permanent Marker", cursive;
+    }
+  }
+
+  .info {
+    height: 300px;
+    width: 100%;
+    background-color: #6a040f;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .block-quote {
+      background-color: #9d0208;
+      max-width: 1000px;
+      min-height: 200px;
+      padding: 30px;
+    }
+  }
+  .gallery {
+    height: 600px;
+    background-color: #370617;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .gallery-cont {
+      height: 400px;
+      min-width: 1000px;
+      // background-color: #ffba08;
+      display: flex;
+      justify-content: space-between;
+
+      .gallery-box {
+        width: 300px;
+        height: 100%;
+        background-color: #03071e;
+
+        .top-image {
+          height: 250px;
+          // background-color: green;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+
+          &--one {
+            background-image: url(../../assests/images/galler-one.jpg);
+          }
+
+          &--two {
+            background-image: url(../../assests/images/galler-two.png);
+          }
+
+          &--three {
+            background-image: url(../../assests/images/galler-three.jpg);
+          }
+        }
+
+        .textbox {
+          text-align: center;
+          padding: 15px;
+          color: white;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+      }
+    }
+  }
+}

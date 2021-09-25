@@ -1,0 +1,57 @@
+.contact {
+  .hero {
+    height: 600px;
+    // background-color: green;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.6)
+      ),
+      url(../../assests/images/zodiac.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    justify-content: center;
+
+    .hero-header {
+      font-size: 150px;
+      color: white;
+      font-family: "Permanent Marker", cursive;
+    }
+  }
+
+  .info {
+    height: 700px;
+    width: 100%;
+    background-color: #6a040f;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .form-title {
+      font-family: "Permanent Marker", cursive;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      width: 600px;
+      .small-in {
+        height: 50px;
+        margin-bottom: 20px;
+      }
+
+      .large-in {
+        height: 300px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

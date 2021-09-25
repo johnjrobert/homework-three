@@ -1,0 +1,99 @@
+.movies {
+  .hero {
+    height: 600px;
+    // background-color: green;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.4)
+      ),
+      url(../../assests/images/theater.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    justify-content: center;
+
+    .hero-header {
+      font-size: 150px;
+      color: white;
+      font-family: "Permanent Marker", cursive;
+    }
+  }
+
+  .movie-list {
+    background-color: #6a040f;
+    min-height: 2500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .movie-list-cont {
+      width: 90%;
+      min-height: 2200px;
+      //   background-color: green;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .movie-cont {
+        height: 200px;
+        width: 100%;
+        // background-color: white;
+        display: flex;
+
+        .movie-image {
+          height: 200px;
+          width: 600px;
+          //   background-color: yellow;
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+
+          &--one {
+            background-image: url(../../assests/images/brood.jpg);
+          }
+          &--two {
+            background-image: url(../../assests/images/texas.jpg);
+          }
+          &--three {
+            background-image: url(../../assests/images/town.png);
+          }
+          &--four {
+            background-image: url(../../assests/images/poss.png);
+          }
+          &--five {
+            background-image: url(../../assests/images/house.jpg);
+          }
+          &--six {
+            background-image: url(../../assests/images/inno.jpg);
+          }
+          &--seven {
+            background-image: url(../../assests/images/hall.jpg);
+          }
+          &--eight {
+            background-image: url(../../assests/images/midsommar.jpg);
+          }
+          &--nine {
+            background-image: url(../../assests/images/what.jpg);
+          }
+        }
+
+        .movie-text {
+          height: 200px;
+          width: 100%;
+          background-color: #03071e;
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+          color: white;
+          justify-content: center;
+          padding: 50px;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+      }
+    }
+  }
+}
